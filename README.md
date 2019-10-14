@@ -6,7 +6,7 @@ This project is an academic only project designed to test the feasibility of ran
 
 Please only run this code if you fully understand what it is doing, as this code can result in encrypting your files with no way to decrypt them.
 
-While the base code will encrypt with a static key used for Encryption and Decryption
+While the base code will encrypt with a static key, please be sure to save this to disk if you utilize this program.
 
 ```javascript
 const key = crypto.scryptSync(password, "salt", 32);
